@@ -14,6 +14,8 @@ module.exports = {
     'prettier/react',
   ],
   rules: {
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "no-multiple-empty-lines": [2, { max: 1 }],
     'global-require': 0,
     'jsx-props-no-spreading': 0,
   },
